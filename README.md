@@ -15,7 +15,7 @@ Control your book library by saving books you may be interested in for later vie
 
 ### Installation:
 1. Clone the complete repository from Github.
-2. Run `npm install` in the terminal. This will install the dependencies in the `package.json`. When that's done, you can run the application in the command line with `npm start`. This will open the link to the application at http://localhost:3000.
+2. Run `npm install` in the terminal. This will install the required dependencies in the `package.json`. When that's done, you can run the application in the command line with `npm start` to start the React App and Express server. This will open the link to the application in your web browser at http://localhost:3000.
 
 ### Technology Used:
 * React.js
