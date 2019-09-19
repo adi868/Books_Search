@@ -1,4 +1,4 @@
-# Google-Books-Search
+# Google Books Search
 
 ## Overview
 This application uses React lifecycle methods to query and display books based on user searches. Using Node, Express, and MongoDB users can save books to review or purchase later.
