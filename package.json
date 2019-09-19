@@ -1,0 +1,28 @@
+{
+  "name": "Books_Search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adi868/Books_Search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adi868/Books_Search/issues"
+  },
+  "homepage": "https://github.com/adi868/Books_Search#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "path": "^0.12.7",
+    "react-router-dom": "^5.0.1"
+  }
+}
