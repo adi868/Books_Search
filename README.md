@@ -1,7 +1,17 @@
 # Google Books Search
 
 ## Overview
-This application uses React lifecycle methods to query and display books based on user searches. Using Node, Express, and MongoDB users can save books to review or purchase later.
+This single-page application (SPA) uses React lifecycle methods to query and display books based on user searches. Using Node, Express, and MongoDB users can save books to review or purchase later.
+
+## Usage:
+Search the name of a book to receive information on the following fields:
+* title - Title of the book from the Google Books API
+* authors - The books's author(s) as returned from the Google Books API
+* description - The book's description as returned from the Google Books API
+* image - The Book's thumbnail image as returned from the Google Books API
+* link - The Book's information link as returned from the Google Books API
+
+Control your book library by saving books you may be interested in for later viewing! 
 
 ### Installation:
 1. Clone the complete repository from Github.
@@ -14,12 +24,28 @@ This application uses React lifecycle methods to query and display books based o
 * Node.js
 * Express
 * MongoDB
+* Mongoose
 * Javascript
 * JSX
 * ES6
 * Bootstrap
+* Various NPM packages
 
 #### Application Organization:
+This application has two pages accessible to the user. These are:
+* Search
+  * User can search for books via the Google Books API and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.
+
+* Saved
+  * Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.
+  
+By creating API routes using Express these routes are available:
+
+* /api/books (get) - Should return all saved books as JSON.
+* /api/books (post) - Will be used to save a new book to the database.
+* /api/books/:id (delete) - Will be used to delete a book from the database by Mongo _id.
+* `*` (get) - Will load your single HTML page in client/build/index.html.
+
 This application has its UI broken into components using React. The components are as follows:
 * Book
 * Card
