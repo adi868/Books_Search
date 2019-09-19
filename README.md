@@ -32,7 +32,7 @@ Control your book library by saving books you may be interested in for later vie
 * Various NPM packages
 
 #### Application Organization:
-This application has two pages accessible to the user. These are:
+This application has two links accessible to the user. These are:
 * Search
   * User can search for books via the Google Books API and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.
 
@@ -41,10 +41,10 @@ This application has two pages accessible to the user. These are:
   
 By creating API routes using Express these routes are available:
 
-* /api/books (get) - Should return all saved books as JSON.
-* /api/books (post) - Will be used to save a new book to the database.
-* /api/books/:id (delete) - Will be used to delete a book from the database by Mongo _id.
-* `*` (get) - Will load your single HTML page in client/build/index.html.
+* /api/books (get) - Returns all saved books as JSON.
+* /api/books (post) - Used to save a new book to the database.
+* /api/books/:id (delete) - Used to delete a book from the database by Mongo _id.
+* `*` (get) - Loads your single HTML page in client/build/index.html.
 
 This application has its UI broken into components using React. The components are as follows:
 * Book
