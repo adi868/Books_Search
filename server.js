@@ -18,7 +18,8 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI ||"mongodb://adina:password1@ds123499.mlab.com:23499/heroku_dj2njwrx",
+  process.env.MONGODB_URI || "mongodb://localhost/books",
+  // process.env.MONGODB_URI ||"mongodb://adina:password1@ds123499.mlab.com:23499/heroku_dj2njwrx",
   {
     useCreateIndex: true,
     useNewUrlParser: true
