@@ -23,7 +23,6 @@ class Home extends Component {
   };
 
   getBooks = () => {
-    console.log(this.state.q)
     API.getBooks(this.state.q)
       .then(res =>
         this.setState({
