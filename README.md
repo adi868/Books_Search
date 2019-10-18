@@ -1,7 +1,7 @@
 # Google Books Search
 
 ## Overview
-This single-page application (SPA) uses React lifecycle methods to query and display books based on user searches. Using Node, Express, and MongoDB users can save books to review or purchase later.
+This single-page application (SPA) uses React lifecycle methods and the Google Books API to query and display books based on user searches. Using Node, Express, and MongoDB users can save books to review or purchase later. Explore this application to find, view, and save your favorite books!
 
 ## Usage:
 Search the name of a book to receive information on the following fields:
@@ -33,14 +33,14 @@ Control your book library by saving books you may be interested in for later vie
 * Various NPM packages
 
 #### Application Organization:
-This application has two links accessible to the user. These are:
+This application has two routes accessible to the user. These are:
 * Search
-  * User can search for books via the Google Books API and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.
+  * User can search for books via the Google Books API and render them here. User has the option to "View" a book, linking them to the book on Google Books, or "Save" a book, saving it to the Mongo database and showing it available on the "Saved" page.
 
 * Saved
-  * Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.
+  * Renders all books saved to the Mongo database. User has an option to "View" the book, linking them to the book on Google Books, or "Delete" a book, removing it from the Mongo database and from view.
   
-By creating API routes using Express these routes are available:
+ These Express routes are available:
 
 * /api/books (get) - Returns all saved books as JSON.
 * /api/books (post) - Used to save a new book to the database.
@@ -55,6 +55,8 @@ This application has its UI broken into components using React. The components a
 * Jumbotron
 * List
 * Nav
+
+This application follows an MVC paradigm to develop the user interface and divide the model (data), the view (user interface), and the controller (processes that handle input) structurally.
 
 #### About Using React:
 
