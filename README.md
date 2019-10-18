@@ -85,6 +85,7 @@ Your app is ready to be deployed!
 
 #### Screenshot:
 ![Screenshot1](GoogleBooks.png)
+
 ![Screenshot2](GoogleBooksSaved.png)
 
 #### Deployed Link: 
