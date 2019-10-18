@@ -3,7 +3,7 @@
 ## Overview
 This single-page application (SPA) uses React lifecycle methods and the Google Books API to query and display books based on user searches. Using Node, Express, and MongoDB users can save books to review or purchase later. Explore this application to find, view, and save your favorite books!
 
-## Usage:
+### Usage:
 Search the name of a book to receive information on the following fields:
 * title - Title of the book from the Google Books API
 * authors - The books's author(s) as returned from the Google Books API
