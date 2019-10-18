@@ -26,7 +26,8 @@ Control your book library by saving books you may be interested in for later vie
 * MongoDB
 * Mongoose
 * Javascript
-* JSX
+* React-Router-Dom
+* Axios
 * ES6
 * Bootstrap
 * Various NPM packages
