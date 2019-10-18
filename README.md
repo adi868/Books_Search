@@ -45,7 +45,7 @@ This application has two routes accessible to the user. These are:
 * /api/books (get) - Returns all saved books as JSON.
 * /api/books (post) - Used to save a new book to the database.
 * /api/books/:id (delete) - Used to delete a book from the database by Mongo _id.
-* `*` (get) - Loads your single HTML page in client/build/index.html.
+* `*` (get) - Loads HTML page in client/build/index.html.
 
 This application has its UI broken into components using React. The components are as follows:
 * Book
