@@ -84,6 +84,8 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 #### Screenshot:
+![Screenshot1](GoogleBooks.png)
+![Screenshot2](GoogleBooksSaved.png)
 
 #### Deployed Link: 
 [Google Books Search](https://googlebooks-adi868.herokuapp.com/)
